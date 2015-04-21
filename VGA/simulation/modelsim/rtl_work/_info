@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Mein\Desktop\HARDWARE\fpga\VGA\simulation\modelsim
+Esync
+Z1 w1376832917
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Mein\Desktop\HARDWARE\fpga\VGA\simulation\modelsim
+Z6 8C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/Vhdl2.vhd
+Z7 FC:/Users/Mein/Desktop/HARDWARE/fpga/VGA/Vhdl2.vhd
+l0
+L6
+VM5id]hCQ]J61AchA[7GDL3
+!s100 m2@81YDD4PWjfn_m88GMa2
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1376835520.325000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/Vhdl2.vhd|
+Z11 !s107 C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/Vhdl2.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Amain
+R2
+R3
+R4
+DEx4 work 4 sync 0 22 M5id]hCQ]J61AchA[7GDL3
+l25
+L20
+Vm<al>H4bSSj9V]DL07:2?1
+!s100 e6o4C]WHL7S`iN>Sobdk?2
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Evga
+Z14 w1376832881
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/VGA.vhd
+Z16 FC:/Users/Mein/Desktop/HARDWARE/fpga/VGA/VGA.vhd
+l0
+L6
+V]9PU0je:l=boIPHcoo7BD0
+R8
+31
+Z17 !s108 1376835519.926000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/VGA.vhd|
+Z19 !s107 C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/VGA.vhd|
+R12
+R13
+!s100 33TK<][VIQ5jzi@TZ^MlV3
+!i10b 1
+Amain
+R2
+R3
+R4
+DEx4 work 3 vga 0 22 ]9PU0je:l=boIPHcoo7BD0
+l48
+L16
+V6CHj4[jhl]MYEmTI8>CRO3
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 3b[aY]EJdR46e]<1?O>Dc3
+!i10b 1

@@ -1,0 +1,32 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/ --output-directory=C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll/ --report-file=bsf:C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll.qsys
+Progress: Loading VGA/pll.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 13.0]
+Progress: Parameterizing module altpll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/ --output-directory=C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll.sopcinfo --report-file=html:C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll.html --report-file=qip:C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll/synthesis/pll.qip --report-file=cmp:C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/pll.qsys --language=VHDL
+Progress: Loading VGA/pll.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 13.0]
+Progress: Parameterizing module altpll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pll: Generating pll "pll" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 1 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 1 modules, 0 connections
+Info: altpll_0: "pll" instantiated altpll "altpll_0"
+Info: pll: Done pll" with 2 modules, 2 files, 13919 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,53 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+ENTITY VGA IS
+PORT(
+CLOCK_50:IN STD_LOGIC;
+VGA_HS,VGA_VS:OUT STD_LOGIC;
+VGA_R,VGA_B,VGA_G: OUT STD_LOGIC_VECTOR(3 downto 0);
+);
+END VGA;
+
+
+ARCHITECTURE MAIN OF VGA IS
+SIGNAL VGACLK
+ COMPONENT SYNC IS
+ PORT(
+	CLK: IN STD_LOGIC;
+	HSYNC: OUT STD_LOGIC;
+	VSYNC: OUT STD_LOGIC;
+	R: OUT STD_LOGIC_VECTOR(3 downto 0);
+	G: OUT STD_LOGIC_VECTOR(3 downto 0);
+	B: OUT STD_LOGIC_VECTOR(3 downto 0);
+	ADDR: IN STD_LOGIC_VECTOR(17 downto 0);
+	DATA: INOUT STD_LOGIC_VECTOR(15 downto 0)
+	);
+END COMPONENT SYNC;
+
+
+
+ component pll is
+        port (
+            altpll_0_c0_clk                      : out std_logic;                                        -- clk
+            altpll_0_pll_slave_read              : in  std_logic                     := 'X';             -- read
+            altpll_0_pll_slave_write             : in  std_logic                     := 'X';             -- write
+            altpll_0_pll_slave_address           : in  std_logic_vector(1 downto 0)  := (others => 'X'); -- address
+            altpll_0_pll_slave_readdata          : out std_logic_vector(31 downto 0);                    -- readdata
+            altpll_0_pll_slave_writedata         : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+            altpll_0_inclk_interface_reset_reset : in  std_logic                     := 'X';             -- reset
+            altpll_0_inclk_interface_clk         : in  std_logic                     := 'X';             -- clk
+            altpll_0_areset_conduit_export       : in  std_logic                     := 'X';             -- export
+            altpll_0_locked_conduit_export       : out std_logic;                                        -- export
+            altpll_0_phasedone_conduit_export    : out std_logic                                         -- export
+        );
+    end component pll;
+ BEGIN
+ 
+ C: pll PORT MAP (VGACLK);
+ C1: SYNC PORT MAP(CLOCK_50,VGA_HS,VGA_VS,VGA_R,VGA_G,VGA_B);
+ 
+ END MAIN
+ 

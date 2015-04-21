@@ -1,0 +1,46 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do VGA_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib altera_reserved_qsys_pll
+# vmap altera_reserved_qsys_pll altera_reserved_qsys_pll
+# Modifying modelsim.ini
+# vlog -vlog01compat -work altera_reserved_qsys_pll +incdir+C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll {C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/pll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# vlog -vlog01compat -work altera_reserved_qsys_pll +incdir+C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules {C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules/pll_altpll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_altpll_0_dffpipe_l2c
+# -- Compiling module pll_altpll_0_stdsync_sv6
+# -- Compiling module pll_altpll_0
+# 
+# Top level modules:
+# 	pll_altpll_0
+# vcom -93 -work work {C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/VGA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity VGA
+# -- Compiling architecture MAIN of VGA
+# vcom -93 -work work {C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/Vhdl2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SYNC
+# -- Compiling architecture MAIN of SYNC
+# 

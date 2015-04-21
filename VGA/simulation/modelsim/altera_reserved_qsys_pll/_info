@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Mein\Desktop\HARDWARE\fpga\VGA\simulation\modelsim
+vpll
+Z1 I=MDl_AB9Z4Z9iYFz1M;<U2
+Z2 VSOOzSlT38:3FlMmYYbah73
+Z3 dC:\Users\Mein\Desktop\HARDWARE\fpga\VGA\simulation\modelsim
+Z4 w1376833083
+Z5 8C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/pll.v
+Z6 FC:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/pll.v
+L0 6
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-vlog01compat -work altera_reserved_qsys_pll -O0
+!i10b 1
+Z9 !s100 [J7S9e8ij=^OSPZ;Tj^Fh1
+!s85 0
+Z10 !s108 1376835519.244000
+Z11 !s107 C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/pll.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|altera_reserved_qsys_pll|+incdir+C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll|C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/pll.v|
+!s101 -O0
+Z13 !s92 -vlog01compat -work altera_reserved_qsys_pll +incdir+C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll -O0
+vpll_altpll_0
+!i10b 1
+!s100 e]<;QJIEfJz5U];7f^27C2
+IOQUOiSLJ`YF95o82Z]0VJ1
+VQYnWLiz1NeEA]Roii_Ci>3
+R3
+Z14 w1376833084
+Z15 8C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules/pll_altpll_0.v
+Z16 FC:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules/pll_altpll_0.v
+L0 129
+R7
+r1
+!s85 0
+31
+Z17 !s108 1376835519.523000
+Z18 !s107 C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules/pll_altpll_0.v|
+Z19 !s90 -reportprogress|300|-vlog01compat|-work|altera_reserved_qsys_pll|+incdir+C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules|C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules/pll_altpll_0.v|
+!s101 -O0
+R8
+Z20 !s92 -vlog01compat -work altera_reserved_qsys_pll +incdir+C:/Users/Mein/Desktop/HARDWARE/fpga/VGA/db/ip/pll/submodules -O0
+vpll_altpll_0_dffpipe_l2c
+!i10b 1
+!s100 `I=O=c8HP4emMGV_PZbFo3
+IS6_81EbGn[CJVDoRA[fZn0
+V6MM_S:i:C_HJF<3UjiK`70
+R3
+R14
+R15
+R16
+L0 37
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+R20
+vpll_altpll_0_stdsync_sv6
+!i10b 1
+!s100 ]ce;H4cFNoK?>:>UTm7z71
+IG8D=gIJkJ;D?m4hAESnY92
+VOkj5:VF;OY6NVCfYi4C0;1
+R3
+R14
+R15
+R16
+L0 98
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+R20
